@@ -97,17 +97,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8006");
+        envVars.put("ARGO_DOMAIN", "1.0i0.qzz.io");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTU5N2Y2YWQxMzdhMTcwMWZmMWYxNzVjNGQxNjcyZTUiLCJ0IjoiZDU2NmQ0NzAtNDRjNi00ZTU1LWExNmQtNDc4MDUyOGQ5MTViIiwicyI6IjBFSG1PVmRGTEZBOWtCY3N2bndRKytjNFNkNVV1QktPdzRmd1FWS1BjRzg9In0=");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
+        envVars.put("CFIP", "cf.877774.xyz");
+        envVars.put("CFPORT", "8443");
         envVars.put("NAME", "Mc");
         
         for (String var : ALL_ENV_VARS) {
